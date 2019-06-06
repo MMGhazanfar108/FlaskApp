@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <title>Web Based DataSpark App</title>
+ 
+ 
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+ 
+ 
+</head>
+ 
+<body>
+ 
+    <div class="container">
+        <div class="header">
+            <nav>
+                <ul class="nav nav-pills pull-right">
+                    </ul>
+            </nav>
+            <h3 class="text-muted">Web Based App</h3>
+        </div>
+ 
+        <div class="jumbotron">
+            <h1>DataSpark App</h1>
+            <h2>Census Data</h2>
+			<p class="lead"></p>
+            <form action="/action_page.php">
+				<select name="Year">
+					<option value="2016">2016</option>
+					<option value="2011">2011</option>
+				</select>
+				<select name="Geographies">
+					<option value="All">All</option>
+					<option value="SA">SA</option>
+					<option value="NSW">NSW</option>
+					<option value="VIC">VIC</option>
+				</select>
+				<select name="By">
+					<option value="PostCodes">PostCodes</option>
+					<option value="Region">Region</option>
+					<option value="Suburb">Suburb</option>
+				</select>
+				
+				<br><br>
+			<a class="btn btn-lg btn-success" href="item2.html" role="button">Catalog</a>
+			</form>
+        </div>
+ 
+        
+        <footer class="footer">
+            <p>&copy; A Data Provision Company (2018)</p>
+        </footer>
+ 
+    </div>
+</body>
+ 
+</html>
